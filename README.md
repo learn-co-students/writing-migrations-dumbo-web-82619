@@ -7,7 +7,7 @@
 - Run a migration to add a column to a table
 - Run a migration to change something in the table
 
-## Creating a Table
+<!-- ## Creating a Table
 
 The first thing we will do is create a table. In
 `db/migrate/01_create_students.rb`, write the code to create a table with
@@ -18,8 +18,8 @@ method within that method to create the table. The table should have a `:name`
 column with a type `string`.
 
 After you finish defining the `change` method, run the migrations by running
-`rake db:migrate` in your terminal.
-
+`rake db:migrate` in your terminal. -->
+<!-- 
 ## Adding a Column
 
 The next thing we will do is add a couple of columns to the `students` table we
@@ -37,7 +37,7 @@ the camel case version of the _filename_, minus the numbers in front). Inside
 method.
 
 Let's add a `:grade` column and a `:birthdate` column. The `:grade` column type
-should be `integer` and the `:birthdate` column type should be `string`.
+should be `integer` and the `:birthdate` column type should be `string`. -->
 
 ## Changing a Column
 
